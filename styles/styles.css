@@ -27,7 +27,6 @@ svg {
 
 button {
   display: inline-block;
-  border: none;
   background: none;
   cursor: pointer;
   font-family: inherit;
