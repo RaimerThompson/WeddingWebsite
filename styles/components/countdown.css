@@ -1,0 +1,29 @@
+.countdown{
+  padding: 1.5rem;
+  background: url(/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.countdown__time{
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 1rem;
+ 
+  
+}
+
+.countdown__time div{
+  flex-basis: 180px;
+}
+
+.countdown__time div p{
+  font-size: 50px;
+}

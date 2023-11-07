@@ -1,13 +1,18 @@
 .faq{
   padding: 25px 5rem;
+  background-image: url(/images/natasha-t-XGGVxbBfYy4-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .faq__title{
   text-align: center;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
+  color: black;
 }
 
 .faq__text{
-  color: rgb(75, 75, 75);
+  color: rgb(255, 255, 255);
+  flex-wrap: wrap;
 }

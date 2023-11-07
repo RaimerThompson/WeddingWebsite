@@ -1,5 +1,9 @@
 .timeline{
   padding: 50px 1rem;
+  background-image: url(/images/annie-spratt-GJJo0gb7bfY-unsplash.jpg);
+  background-position:  ;
+  background-size: cover;
+  z-index: 2;
 }
 
 .timeline__items{
