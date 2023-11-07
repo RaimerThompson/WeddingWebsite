@@ -1,0 +1,31 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__copyright{
+  font-size: 10px;
+  /* flex: .33; */
+  text-align: center;
+}
+
+.footer__logo{
+/* flex: .5; */
+align-self: center;
+font-size: var(--size-xl);
+}
+
+.footer__right-side{
+  /* flex:.5; */
+  align-self: center;
+}
+
+.footer__logo span{
+  content: '';
+  border: 1px solid rgb(25, 145, 85);
+  position: relative;
+  left: -2.5px; 
+}

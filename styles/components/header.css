@@ -4,7 +4,11 @@ ul li a{
   text-decoration: none;
   list-style: none;
   /* color: rgb(25, 145, 85); */
-  color: rgb(115, 115, 115);
+  color: rgb(105, 105, 105);
+}
+
+ul li a:hover{
+  color: rgb(25, 145, 85, .85);
 }
 
 .header__menu{
@@ -19,6 +23,10 @@ ul li a{
   list-style: none;
 }
 
+.header__logo:hover{
+  color: rgb(105, 105, 105);
+}
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -30,6 +38,7 @@ nav{
   background:rgb(255, 255, 255, .2);
   /* box-shadow: 1px 1px 1px .5px rgba(147, 147, 147, 0.2); */
   z-index: 10;
+  transition: ease-in-out 700ms;
 }
 
 .header__logo span{

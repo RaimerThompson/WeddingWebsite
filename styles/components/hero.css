@@ -6,8 +6,9 @@
   background-image: url(/images/cocktail\ 1\ DSC_1424.jpg);
   background-position: center;
   background-size: cover;
-  /* height: calc(100vh - 48px); */
+  background-attachment: fixed;
   height: 100vh;
+  z-index: -1;
 }
 
 .hero__text{
