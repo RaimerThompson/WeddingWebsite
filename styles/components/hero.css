@@ -1,0 +1,61 @@
+.hero{
+  /* margin-top: 48px; */
+}
+
+.hero__main{
+  background-image: url(/images/cocktail\ 1\ DSC_1424.jpg);
+  background-position: center;
+  background-size: cover;
+  /* height: calc(100vh - 48px); */
+  height: 100vh;
+}
+
+.hero__text{
+  text-align: center;
+  justify-content: center;
+  transform: translateY(25%);
+  color: white;
+  font-family: 'Parisienne', cursive;
+  font-size: var(--size-7xl);
+  line-height: 4.5rem;
+}
+
+.hero__date{
+  text-align: center;
+  justify-content: center;
+  transform: translateY(270%);
+  color: white;
+  font-family: 'Forum', serif;
+  font-size: var(--size-2xl);
+  line-height: 4.5rem;
+}
+
+.hero__location{
+  text-align: center;
+  justify-content: center;
+  transform: translateY(220%);
+  color: white;
+  font-family: 'Parisienne', cursive;
+  font-size: var(--size-2xl);
+  line-height: 4.5rem;
+}
+
+
+.hero__rsvp{
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  background: rgb(115, 115, 115, .7);
+  color: rgb(0, 0, 0);
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.hero__rsvp:hover{
+  background: rgb(75, 75, 75);
+  color: white;
+}
