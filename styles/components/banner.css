@@ -11,8 +11,10 @@
   z-index: -30;
 }
 
-.banner__text span{
+.banner:hover .banner__text span{
   font-style: italic;
   font-family: 'Parisienne', cursive;
   font-size: var(--size-3xl);
+  color: rgb(60, 120, 60);
 }
+

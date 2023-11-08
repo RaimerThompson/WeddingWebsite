@@ -1,8 +1,9 @@
 .faq{
   padding: 25px 5rem;
-  background-image: url(/images/natasha-t-XGGVxbBfYy4-unsplash.jpg);
-  background-position: center;
-  background-size: cover;
+  background-image: url(/images/priscilla-du-preez-INjdgkCwHp0-unsplash.jpg);
+  background-position: bottom;
+  background-size: contain;
+
 }
 
 .faq__title{
@@ -13,6 +14,6 @@
 }
 
 .faq__text{
-  color: rgb(255, 255, 255);
+  color: rgb(241, 175, 98);
   flex-wrap: wrap;
 }

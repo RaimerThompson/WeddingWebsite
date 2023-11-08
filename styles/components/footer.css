@@ -25,7 +25,7 @@ font-size: var(--size-xl);
 
 .footer__logo span{
   content: '';
-  border: 1px solid rgb(25, 145, 85);
+  border: 1px solid rgb(25, 145, 85, .45);
   position: relative;
   left: -2.5px; 
 }

@@ -1,9 +1,8 @@
 .countdown{
-  padding: 1.5rem;
-  background: url(/images/jazmin-quaynor-8ioenvmof-I-unsplash.jpg);
+  background: url(/images/helena-hertz-wWZzXlDpMog-unsplash.jpg);
   background-position: center;
   background-size: cover;
-  padding: 5rem;
+  padding: 5rem 1rem;
   text-align: center;
   align-items: start;
   justify-content: center;
@@ -11,6 +10,7 @@
   background-color: lightgray;
   top: 0;
   z-index: -20;
+  height: 100vh;
 }
 
 .countdown__time{
@@ -21,10 +21,11 @@
   text-align: center;
 }
 
-h3{
+.countdown__title{
   text-align: center;
   margin-bottom: 1rem;
- 
+  font-family: 'Parisienne', cursive;
+  font-size: var(--size-3xl);
   
 }
 
@@ -34,4 +35,37 @@ h3{
 
 .countdown__time div p{
   font-size: 50px;
+}
+
+.contact__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__details{
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.17rem;
+  font-family: 'Parisienne', cursive;
+  margin-top: 2rem;
+  position: relative;
+  left: -20px;
+  bottom: -10px;
+  gap: 1.5rem;
+}
+
+.map{
+  width: 55%;
+  height: 250px;
+  flex: 1;
+  box-shadow: 5px 8px 10px 2px rgba(147, 147, 147, 0.2);
+}
+
+.map iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
 }
