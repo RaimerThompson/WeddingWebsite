@@ -13,8 +13,10 @@
   <link rel="stylesheet" href="styles/components/countdown.css">
   <link rel="stylesheet" href="styles/components/faq.css">
   <link rel="stylesheet" href="styles/components/footer.css">
+  <link rel="stylesheet" href="styles/aos.css">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/utilities.css">
+  
   <script src="https://kit.fontawesome.com/c339e0fb63.js" crossorigin="anonymous"></script>
 
   <title>Eric y Carolina Wedding</title>
@@ -69,7 +71,7 @@
 </section>
 
 <section class="banner section container">
-  <h2 class="banner__text">We can't wait to celebrate <span>our love</span> with you!</h2>
+  <h2 data-aos="zoom-out" data-aos-duration="1000" class="banner__text">We can't wait to celebrate <span class="banner__span">our love</span> with you!</h2>
 </section>
 
 <section id="timeline">
@@ -167,9 +169,6 @@
           Time: 4:30pm
         </h3>
     </div>
-    <!-- <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1961.9586421964846!2d-75.54837047569688!3d10.428138500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f993751e6ed%3A0x7b16cb9ce372fd17!2sInstituci%C3%B3n%20Universitaria%20Bellas%20Artes%20y%20Ciencias%20de%20Bol%C3%ADvar!5e0!3m2!1sen!2sus!4v1699397848801!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div> -->
   </div>
   
 </section>
@@ -180,13 +179,6 @@
     <p class="faq__text">The average temperature in Cartagena in April for a typical day ranges from a high of 88°F (31°C) and a low of 78°F (25°C). The key to enjoying Cartagena is to explore the streets in the morning while it's cooler, and relax by the pool in the afternoon.
       We recommend lightweight, breathable, and flowy fabrics. As for shoes, the streets in the Walled City are mostly cobblestone and can be hard on the feet so bring your sneakers!</p>
   </div>
-  <div faq__container>
-    <h2 class="faq__title">DO I NEED A PASSPORT AND/OR A VISA?</h2>
-    <p class="faq__text"> You need a valid passport. Some airlines will not allow you to travel unless your passport is valid 6 months post-travel **this means that your passport expiration date must be dated July. 26, 2023 (or later, depending your departure date from Cartagena)**
-      To renew/apply for your U.S. Passport: <a href="https://travel.state.gov/content/travel/en/passports.html">https://travel.state.gov/content/travel/en/passports.html</a></p>
-      <br>
-      <p class="faq__text">A tourist visa is NOT required for U.S. citizens staying less than 90 days.</p>
-  </div>
   </div> 
   <div faq__container>
     <h2 class="faq__title">DO I NEED TO SPEAK SPANISH?</h2>
@@ -194,11 +186,11 @@
   </div> 
   <div faq__container>
     <h2 class="faq__title">WHAT'S THE CURRENCY AND HOW DO I TAKE OUT CASH?</h2>
-    <p class="faq__text">Colombian Pesos, or COP. The exchange rate as of writing is $1 USD = ~4000 pesos.</p>
-    <p class="faq__text">  Useful conversions:
-      10,000 pesos = ~2.50 USD
-      25,000 pesos = ~6.25 USD
-      100,000 pesos = ~25 USD</p>
+    <p class="faq__text">Colombian Pesos, or COP. The exchange rate as of writing is $1 USD = ~4000 pesos.</p> <br>
+    <p class="faq__text">  Useful conversions: <br>
+      10,000 pesos = ~2.50 USD <br>
+      25,000 pesos = ~6.25 USD <br>
+      100,000 pesos = ~25 USD</p> <br>
       <p class="faq__text">  We recommend that you exchange money at the airport when you arrive at Cartagena or before leaving your US location. After claiming your checked luggage you will be processed through one more security check point. After the security check point, you will find a currency exchange window right before exiting the airport .If you plan to take a taxi to the hotel We advise you exchange some money prior to leaving the Cartagena airport . Taxis will cost around ($10-$15 US dollars ) about $40.000 COL pesos and do NOT have credit card payment methods.</p>
       <p class="faq__text">ATM's are accessible throughout the old city but are not always conveniently located. However, Credit cards are widely accepted.</p>
       <p class="faq__text">  We recommend double checking whether your bank charges foreign transaction fees, and letting them know you will be travelling abroad to prevent your bank from freezing your card.</p>
@@ -214,11 +206,11 @@
     <p class="faq__text"> In the Old City everything is walking distance to shops, restaurants and nightlife.
       If you plan on exploring outside of the walled city Taxis' are your best option. While Uber technically works in Cartagena, there are not many drivers so it's most convenient to jump in a cab. Show your driver the destination and agree on a rate before he starts driving.
       </p>
-      <p class="faq__text"> Please check in with us regarding transportation from the airport to the Hotel. We are working out a few details for transportation options as an alternative to a taxi.</p>
+      <p class="faq__text"> Please check in with us regarding transportation from the airport to the Hotel. We are working out a few details for transportation options as an alternative to a taxi.</p> <br>
       <p class="faq__text">
-        Common rates:
-        Cartagena Airport to Walled City: xxxxx pesos (~$10 USD)
-        Walled City to Getsamani: xxxxxxx pesos (~$1.50-3 USD)
+        Common rates: <br>
+        Cartagena Airport to Walled City: xxxxx pesos (~$10 USD) <br>
+        Walled City to Getsamani: xxxxxxx pesos (~$1.50-3 USD) <br>
         Walled City to Bocagrande: xxxxxx pesos (~$2-3 USD)</p>
   </div>
   <div faq__container>
@@ -243,20 +235,12 @@
     The Shubies
   </div>
 </section>
-  
+<script>
+
+</script>
+  <script src="js/aos.js"></script>
   <script src="js/countdown.js"> </script>
-  <script>
-    var lastScrollTop = 0;
-    navbar = document.getElementById("nav");
-    window.addEventListener('scroll', function(){
-      var scrollTop = window.pageYOffset || documentElement.scrollTop;
-      if (scrollTop > lastScrollTop){
-        navbar.style.top="-80px";
-      }else{
-        navbar.style.top='0';
-      }
-      lastScrollTop = scrollTop;
-    })
-  </script>
+  
+ 
 </body>
 </html>

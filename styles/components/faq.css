@@ -1,19 +1,20 @@
 .faq{
   padding: 25px 5rem;
-  background-image: url(/images/priscilla-du-preez-INjdgkCwHp0-unsplash.jpg);
-  background-position: bottom;
-  background-size: contain;
-
+  background-image: url(/images/olga-thelavart-vS3idIiYxX0-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(90%);
 }
 
 .faq__title{
   text-align: center;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
-  color: black;
+  color: rgb(80, 80, 80);
 }
 
 .faq__text{
-  color: rgb(241, 175, 98);
+  color: rgb(89, 152, 88);
   flex-wrap: wrap;
+ 
 }

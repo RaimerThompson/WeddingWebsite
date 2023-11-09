@@ -56,16 +56,3 @@
   bottom: -10px;
   gap: 1.5rem;
 }
-
-.map{
-  width: 55%;
-  height: 250px;
-  flex: 1;
-  box-shadow: 5px 8px 10px 2px rgba(147, 147, 147, 0.2);
-}
-
-.map iframe{
-  width: 100%;
-  height: 100%;
-  border-radius: 2%;
-}
