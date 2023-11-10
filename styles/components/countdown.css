@@ -50,7 +50,7 @@
   justify-content: center;
   font-size: 1.17rem;
   font-family: 'Parisienne', cursive;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   position: relative;
   gap: 1.5rem;
 
@@ -111,7 +111,7 @@
     justify-content: center;
     font-size: 1.2rem;
     font-family: 'Parisienne', cursive;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     position: relative;
     gap: 1.5rem;
     left: -5%;
