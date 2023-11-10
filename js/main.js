@@ -25,6 +25,7 @@ window.addEventListener('scroll', function(){
   if (scrollTop > lastScrollTop){
     navbar.style.top="-700px";
     mobileNav.classList.remove('active');
+    menuBtn.classList.remove('close');
   }else{
     navbar.style.top='0';
   }

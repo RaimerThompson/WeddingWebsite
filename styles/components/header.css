@@ -75,9 +75,14 @@ nav{
     cursor: pointer;
   }
 
+  .hamburger__btn.close{
+    top: 0;
+    left: 2px;
+  }
+
 
   .hamburger__btn.close .top{
-    transform: rotate(45deg) translate(30px, -5px);
+    transform: rotate(45deg) translate(32px, -5px);
   }
   
   .hamburger__btn.close .middle{
@@ -85,7 +90,7 @@ nav{
   }
   
   .hamburger__btn.close .bottom{
-    transform: rotate(-45deg) translate(-60px, 5px);
+    transform: rotate(-45deg) translate(-64px, 5px);
   }
   
 
