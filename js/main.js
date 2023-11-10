@@ -23,7 +23,8 @@ navbar = document.getElementById("nav");
 window.addEventListener('scroll', function(){
   var scrollTop = window.pageYOffset || documentElement.scrollTop;
   if (scrollTop > lastScrollTop){
-    navbar.style.top="-80px";
+    navbar.style.top="-700px";
+    mobileNav.classList.remove('active');
   }else{
     navbar.style.top='0';
   }
