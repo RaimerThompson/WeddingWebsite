@@ -4,10 +4,13 @@
   padding: 2rem 5rem;
   align-items: center;
   text-align: center;
+  background: url(/images/helena-hertz-wWZzXlDpMog-unsplash.jpg);
+  background-position: top;
+  background-size: cover;
 }
 
 .footer__copyright{
-  font-size: 10px;
+  font-size: 5px;
   /* flex: .33; */
   text-align: center;
 }
@@ -15,12 +18,13 @@
 .footer__logo{
 /* flex: .5; */
 align-self: center;
-font-size: var(--size-xl);
+font-size: var(--size-xs);
 }
 
 .footer__right-side{
   /* flex:.5; */
   align-self: center;
+  font-size: var(--size-xs);
 }
 
 .footer__logo span{
@@ -29,3 +33,57 @@ font-size: var(--size-xl);
   position: relative;
   left: -2.5px; 
 }
+
+
+/* xs */
+@media (min-width: 475px) {
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer__copyright{
+    font-size: 10px;
+    /* flex: .33; */
+    text-align: center;
+  }
+  
+  .footer__logo{
+  /* flex: .5; */
+  align-self: center;
+  font-size: var(--size-xl);
+  }
+  
+  .footer__right-side{
+    /* flex:.5; */
+    align-self: center;
+    font-size: var(--size-xl);
+  }
+  
+  .footer__logo span{
+    content: '';
+    border: 1px solid rgb(25, 145, 85, .45);
+    position: relative;
+    left: -2.5px; 
+  }
+  
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
+
